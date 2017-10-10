@@ -1,0 +1,85 @@
+* {
+  font-family: helvetica;
+}
+
+body{
+  background: rgb(244, 248, 249);
+  font-size: 20px;
+}
+
+span{
+  font-size: 25px;
+  color: rgb(105, 120, 130);
+}
+
+.tweet{
+  background: rgb(255, 255, 255);
+  border: 3px solid rgb(225, 232, 237);
+  width: 75%;
+  border-radius: 10px;
+  top: 15%;
+  left: 12%;
+  position: absolute;
+  padding: 40px;
+}
+
+.user{
+  font-size: 25px;
+  padding-left: 100px;
+  line-height: 0px;
+  font-weight: bold;
+}
+
+.cont3{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  line-height: 10px;
+  font-size: 30px;
+}
+
+.button{
+  border: solid rgb(255, 255, 255);
+  border-width: 0px;
+  background-color: rgb(255, 255, 255);
+  margin: 0px;
+}
+
+#foto{
+  border-radius: 10px;
+  float: left;
+}
+
+#follow{
+  background-color: rgb(255, 255, 255);
+  border: 2px solid rgb(85, 172, 238);
+  border-radius: 10px;
+  float: right;
+  padding: 10px 25px;
+  position: relative;
+  top: -100px;
+  margin: 0px;
+
+}
+#text1{
+  color: rgb(85, 172, 238);
+  font-size: 25px;
+  font-weight: bold;
+  text-transform: capitalize;
+  margin-left: 10px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+#text{
+  color: rgb(0, 0, 0);
+}
+
+#name{
+  color: rgb(105, 120, 130);
+  font-weight: lighter;
+}
+
+#time{
+  color: rgb(101, 116, 127);
+  font-size: 25px;
+}

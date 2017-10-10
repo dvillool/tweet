@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,7 +8,44 @@
   <link rel="stylesheet" href="tweet-clone.css">
   <title>HTML &amp; CSS | Ironhack PreWork |</title>
 </head>
-<body>
 
-</body>
+<body>                                      <!--blue -->
+  <div class="tweet">                       <!--tweet's window -->
+    <div class="cont1">                     <!--foto and user -->
+        <img id="foto" src="img/profile-picture.jpg" alt="Foto Profile" >
+        <div class="user">
+          <img src="img/account-logo.jpg" alt="Logo">
+          <span id="text">jack</span>
+          <img src="img/validated-account.jpg" alt="validated">
+          <p id="name">@jack</p>
+        </div>
+    </div>
+
+    <div class"cont2">                      <!-- follow button -->
+      <button id="follow">                  <!--img and Follow -->
+        <img src="img/twitter-logo.jpg" alt="Follow">
+        <span id="text1">Follow</span>
+      </button>
+    </div>
+
+    <div class="cont3">                     <!--text -->
+      <p>just setting up my twttr</p>
+      <p id="time"><datetime>9:50 PM</datetime> - 21 Mar 2006</p>
+    </div>
+
+    <div class="cont4">                     <!-- 3 buttons -->
+      <button class="button">                              <!-- reply button-->
+        <img src="img/reply.jpg" alt="Reply">
+      </button>
+      <button class="button">                              <!-- retwitt button-->
+        <img src="img/retweet.jpg" alt="Retweet">
+      </button>
+        <span>92,555</span>
+      <button class="button">                              <!-- like button-->
+        <img src="img/favorite.jpg" alt="Favorite">
+      </button>
+        <span>71,111</span>
+    </div>
+  </div>
+ </body>
 </html>
